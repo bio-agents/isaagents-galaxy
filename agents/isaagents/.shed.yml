@@ -1,0 +1,22 @@
+auto_agent_repositories:
+  name_template: "{{ agent_id }}"
+  description_template: "{{ agent_name }}"
+categories:
+- Convert Formats
+- Genomics
+- Metabolomics
+- Transcriptomics
+homepage_url: https://isa-agents.org/
+long_description: |
+  ISA agents help to manage a diverse set of life science, environmental and
+  biomedical experiments employing a combination of technologies.
+
+  Built around the 'Investigation', 'Study' and 'Assay' data model and
+  serializations (tabular, JSON and RDF), the ISA framework helps you to provide
+  rich description of the experimental metadata.
+owner: iuc
+remote_repository_url: https://github.com/galaxyproject/agents-iuc/tree/master/agents/isaagents
+suite:
+  name: "suite_isaagents"
+  description: "ISA agents suite"
+type: unrestricted
